@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"Enter the a;";
+    cin>>a;
+    int b;
+    cout<<"Enter the b:";
+    cin>>b;
+    int ans;
+    ans=a+b;
+    cout<<"Answer is "<<ans<<endl;
+    int x;
+    cout<<"Enter the x;";
+    cin>>x;
+    int y;
+    cout<<"Enter the y:";
+    cin>>y;
+    int Z;
+    Z=x-y;
+    cout<<"Answer is "<<Z<<endl;
+    int p;
+    cout<<"Enter the p;";
+    cin>>p;
+    int q;
+    cout<<"Enter the q:";
+    cin>>q;
+    int R;
+    R=p*q;
+    cout<<"Answer is "<<R<<endl;
+    int s;
+    cout<<"Enter the s;";
+    cin>>s;
+    int t;
+    cout<<"Enter the t:";
+    cin>>t;
+    int U;
+    U=s/t;
+    cout<<"Answer is "<<U<<endl;
+    int e;
+    cout<<"Enter the e;";
+    cin>>e;
+    int f;
+    cout<<"Enter the f:";
+    cin>>f;
+    int G;
+    G=e%f;
+    cout<<"Answer is "<<G<<endl;
+    return 0;
+}
